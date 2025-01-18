@@ -1,5 +1,5 @@
 import React from 'react'
-import assets from '../assets/my_image.jpeg'
+// import assets from '../assets/my_image.jpeg'
 function About() {
   return (
     <div className='w-[100%] mt-2 bg-blue-50'>
@@ -8,10 +8,10 @@ function About() {
           <span className='text-green-500'> me </span>
         </p>
       </div>
-      <div className='flex flex-col lg:flex-row lg:mt-24 gap-6 justify-center'>
+      <div className='flex flex-col lg:flex-row lg:mt-24 lg:ml-60 gap-6 justify-center'>
         <div className='w-full md:w-[350px] mb-4 lg:mb-44  '>
 
-          <img className='w-full rounded-xl shadow-xl md:h-[600px]' src='https://images.pexels.com/photos/6804588/pexels-photo-6804588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt="my_image" />
+          <img className='w-full rounded-xl shadow-xl md:h-[560px]' src='https://images.pexels.com/photos/6804588/pexels-photo-6804588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt="my_image" />
         </div>
         <div className='rounded-xl  shadow-2xl bg-white sm:h-[470px] lg:h-[420px] pb-4 pl-3 mt-16 sm:mt-0 lg:w-[600px]  '>
           <p className='text-black text-2xl sm:text-3xl mt-2 font-semibold ml-4'>Tech-Stack</p>
@@ -66,8 +66,28 @@ function About() {
             </div>
           </div>
         </div>
-        <div></div>
-        <div></div>
+        <div className=''>
+          <div className=' w-full flex justify-center items-center shadow-xl bg-gray-300 md:w-[250px] h-28 rounded-xl'>
+            <a href='mailto:shivammishra0381@gmail.com' className='px-10 py-3 bg-white hover:bg-green-500 hover:text-white rounded-xl translate-all duration-300 '>Click to send email</a>
+          </div>
+          <div className='flex justify-center items-center shadow-xl bg-gray-300 mt-4 mb-6 w-full md:w-[280px] h-28 rounded-xl'>
+            <a href='Shivam_.pdf' download='shivam.resume' className='px-10 py-3 bg-white  rounded-xl hover:border-1 hover:bg-green-500 hover:text-white hover:border-black translate-all duration-300'>Download Resume </a>
+          </div>
+        </div>
+      </div>
+      <div className='w-full'>
+        <p className=' pl-1 md:pl-16 pr-1 md:pr-20 text-gray-700 text-lg font-medium leading-normal'>
+
+          Hi, I’m Naveen, a software developer from Ernakulam with a keen passion for technology and innovation. I hold a Bachelor’s degree in Computer Applications from MG University, which laid the foundation for my journey into software development.
+        </p>
+        <div>
+          <p className='text-2xl font-medium mt-3 mb-2 ml-1 md:ml-16'> My Jaurney </p>
+        </div>
+        <div>
+          <p className=' pl-1 md:pl-16 pr-1 md:pr-20 text-gray-700 text-lg leading-normal font-medium mb-44'>
+          After graduation, I delved into an intensive self-learning program focused on MERN stack development. This journey was not just about gaining technical expertise but also about fostering discipline, adaptability, and problem-solving skills. By dedicating myself, I strengthened understanding of modern web development frameworks and technologies while adhering to industry standards.
+          </p>
+        </div>
       </div>
     </div>
   )
